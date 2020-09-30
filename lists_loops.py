@@ -9,3 +9,18 @@ print(songs)
 #Q4
 songs.extend(["Lemon Grove Avenue", "And Buddha Too", "Segue o Seco"])
 print(songs)
+songs.remove("Do It")
+print(songs)
+#Q6
+animals = ["monkey","dolphin","Tucan"]
+print(animals)
+#append an animal
+animals.append("Turtle")
+print(animals)
+#print out 3rd animal
+print(animals[2])
+del animals[0]
+print(animals)
+# use aloop to print out all animals
+for animal in animals:
+    print(animal)
