@@ -6,3 +6,6 @@ print(songs[1:3])
 songs[2] = "Miles Away"
 #print the list
 print(songs)
+#Q4
+songs.extend(["Lemon Grove Avenue", "And Buddha Too", "Segue o Seco"])
+print(songs)
